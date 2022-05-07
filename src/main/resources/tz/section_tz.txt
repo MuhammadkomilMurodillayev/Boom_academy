@@ -1,0 +1,3 @@
+sectioni create qililgan odam shu corse idnin create qilgan bolishi kerak
+positioni boyicha monipulatsiya qila olishi kerak va bu ish yaratyotgan vaqtda ham qilish mumkin bolsin
+

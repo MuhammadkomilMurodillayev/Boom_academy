@@ -1,0 +1,32 @@
+#MuhammadKomil:
+Lesson create (CRUD):
+    -video birga keladi
+    -video'ning id'sini saqlaydi 
+    
+
+#Dilshod:
+Lesson getBySection();
+   
+Lesson Question and Answer CRUS 
+
+Lesson Notes CRUD
+
+#Abdumajid:
+Search
+
+Finance
+Admin panel:
+    -accountant
+
+#MuhammadKomil:
+FileStorage:
+    -upload(lesson_id)
+    -download(file_id){
+        1) Lesson not publicly open
+        User valid'mi
+        Lesson valid
+        Course valid
+        
+
+
+    

@@ -1,0 +1,322 @@
+Audit:
+    -id (string UUID)
+    -created_at
+    -updated_at
+    -is_deleted
+    -status
+
+
+Auth_users:
+    -audit
+    -name
+    -username
+    -password
+    -role_id
+    -balance
+    -photo_url
+    -email
+    -phone
+    
+    
+Users_data:
+    -user_id
+    -rating (rating for teachers)    
+
+    
+Courses:
+    -audit
+    -name
+    -description
+    -purchase_count
+    -price
+    -rating
+    -rating_count
+    -created_by
+    -category
+    -certificated
+  
+  
+Section_of_course:
+    -audit
+    -course_id
+    -title
+    -position
+    -created_by
+    -quizzed
+
+
+quiz_for_section:
+    -audit
+    -section_id
+    -duration
+    -question_count
+    -max_mark
+    -title
+    -description
+
+
+questions_of_quiz:
+    -audit
+    -quiz_id
+    -title
+    -type (ochiq/yopiq)
+    -mark
+
+
+answers_to_quiz_question:
+    -id (string)
+    -question_of_quiz_id
+    -title
+    -is_correct
+
+
+quizzes_users:
+    -audit
+    -user_id
+    -quiz_id
+    -mark
+    -percentage
+    -finishing_time
+
+
+user_quiz_questions:
+    -quiz_id
+    -is_correctly_solved
+    -quiz_question_id
+
+
+Lessons:
+    -audit
+    -section_id
+    -position
+    -content (string)
+    -video_url
+    -created_by
+ 
+   
+lesson_question:
+    -audit
+    -lesson_id
+    -title
+    -created_by
+    -like_count
+    
+answer_lesson_question:
+    -audit
+    -lesson_question_id
+    -title
+    -created_by
+    -like_count
+
+notes_to_lessons:
+    -audit
+    -user_id
+    -title
+    -lesson_id
+
+
+saved_courses:
+    -audit
+    -course_id
+    -user_id
+
+
+Articles:
+    -audit
+    -body
+    -like_count
+    -dislike_count
+    -created_by
+    -read_count
+
+saved_articles:
+    -audit
+    -article_id
+    -user_id
+
+
+Discount:
+    -audit
+    -course_id
+    -percentage
+    -amount
+    -due_date
+
+
+
+Coupons:
+    -audit
+    -course_id
+    -code
+    -due_date
+    -limit_size (kupon ishlatilish soni)
+    -discount_amount
+    -discount_percentage
+
+
+
+Tags:
+    -audit
+    -name
+    -course_id
+    -article_id
+
+
+rating_of_course:
+    -audit
+    -course_id
+    -created_by
+    -rating/baho
+    
+
+Comments (to courses):
+    -audit
+    -title
+    -created_by
+    -comment_type
+    -nimadir_id
+    
+    
+user_course:
+    -audit
+    -user_id
+    -course_id
+    -is_started
+    -started_at
+
+
+Payment_history:
+    -audit
+    -user_id
+    -amount
+    -currency
+    -payment_method (visa/humo/uzcard...)
+    -type (tushdi/ketdi)
+    
+
+exam (for certificate):
+    -audit
+    -course_id
+    -duration
+    -question_count
+    -max_mark
+    -title
+    -description
+    
+
+exam_question_generation (imtihon uchun random savol uchun):
+    -exam_id
+    -count
+    -mark
+
+    
+
+questions_of_exam:
+    -audit
+    -exam_id
+    -title
+    -type (ochiq/yopiq)
+    -mark 
+    
+
+answers_to_exam_question:
+    -id (string)
+    -question_of_exam_id
+    -title
+    -is_correct
+    
+    
+exams_users:
+    -audit
+    -user_id
+    -exam_id
+    -mark
+    -percentage
+    -finishing_time
+    
+    
+user_exam_questions:
+    -exam_id
+    -is_correctly_solved
+    -exam_question_id
+
+
+certificates:
+    -audit
+    -course_id
+    -user_id
+    -percentage
+
+
+feedbacks:
+    -audit
+    -user_id
+    -type
+    -title/message
+
+
+course_purchase_history:
+    -audit
+    -course_id
+    -user_id
+    -payment_amount
+    -coupon
+    -discount (percentage)
+
+
+=====================
+==== enum tables ====
+=====================
+
+statuses:
+    -code (int)
+    -name (reason)
+    -id (string)
+    
+roles:
+    -name
+    -power (darajasi)
+    -id (string)
+    
+permissions:
+    -name
+    -id (string)
+
+
+question_types:
+    -id (string)
+    -name
+
+
+feedback_types:
+    -name
+    -id (string)
+
+
+category:
+    -name
+    -id (string)
+
+    
+
+
+=======================
+Permissions -> version 2
+
+Roles:
+    -SUPER_ADMIN
+    -ADMIN
+    -ACCOUNTANT
+    -MANAGER
+    -SUPPORT
+    -USER
+
+    
+    
+    
+    
+    
+    
+    
+    
+

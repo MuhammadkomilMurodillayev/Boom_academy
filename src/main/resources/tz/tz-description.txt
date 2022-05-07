@@ -1,0 +1,39 @@
+foydalanuvchi kursga baho bergan payti rating_of_course table'ga log yoziladi
+    va courses table'dagi rating va rating_count column'lar update bo'ladi
+
+
+status = 100 ======>  user blocklangan boladi
+status = 0 =======> active user boladi
+
+
+<==============================>
+<========= course =============>
+<==============================>
+
+course create qilingan paytda uning statusi active bo'lmaydi, not active bo'ladi.
+
+course'ni hamma section va lessonlari create qilib bo'lingandan keyin, active qilish uchun bitta
+    API chiqarib qo'yish kerak
+
+
+
+
+
+
+
+
+
+
+
+
+
+<==============================>
+<========= comment ============>
+<==============================>
+
+commentlar faqat kurslar uchun bo'ladi. Agar comment boshqa bir commentga javob bo'lsa
+    'parentId'ga o'sha commentning id'sini berib ketish kerak. Comment faqat kursni sotib
+    olgan userlar tomonidan qo'shilishi kerak
+
+
+

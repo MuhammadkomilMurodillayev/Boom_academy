@@ -1,0 +1,438 @@
+{
+  "data": {
+    "course_id": "1111111111111111111111111111",
+    "course_title": "Matematika",
+    "exam_id": "cf874f95-0c48-44d4-b643-68553ada04cb",
+    "exam_title": "matematika",
+    "question_count": 6,
+    "max_mark": 15,
+    "percentage": 86.66666666666667,
+    "exam_question_dtos": [
+      {
+        "type": "TEST",
+        "mark": 3,
+        "title": "5*6",
+        "user_mark_answer_title": "30",
+        "correctly_solved": true,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "6c07b578-4b3c-4bf7-9d54-2eb7fed7ddd1",
+            "title": "30",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "6c07b578-4b3c-4bf7-9d54-2eb7fed7ddd1",
+            "title": "6",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "6c07b578-4b3c-4bf7-9d54-2eb7fed7ddd1",
+            "title": "15",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "6c07b578-4b3c-4bf7-9d54-2eb7fed7ddd1",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 2,
+        "title": "3*2",
+        "user_mark_answer_title": "13",
+        "correctly_solved": false,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "13",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "16",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "35",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "6",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 3,
+        "title": "100*100",
+        "user_mark_answer_title": "10000",
+        "correctly_solved": true,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "10000",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "13",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "16",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 3,
+        "title": "100*3",
+        "user_mark_answer_title": "300",
+        "correctly_solved": true,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "300",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "26",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "1644",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "3555",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 2,
+        "title": "10*6",
+        "user_mark_answer_title": "60",
+        "correctly_solved": true,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "60",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "46",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "14",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 2,
+        "title": "10*20",
+        "user_mark_answer_title": "200",
+        "correctly_solved": true,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "200",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "46",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "14",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+{
+  "data": {
+    "course_id": "1111111111111111111111111111",
+    "course_title": "Matematika",
+    "exam_id": "cf874f95-0c48-44d4-b643-68553ada04cb",
+    "exam_title": "matematika",
+    "question_count": 6,
+    "max_mark": 15,
+    "percentage": 20,
+    "exam_question_dtos": [
+      {
+        "type": "TEST",
+        "mark": 3,
+        "title": "100*100",
+        "user_mark_answer_title": "10000",
+        "correctly_solved": true,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "10000",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "13",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "16",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "a6045e15-87f0-48a4-b0a7-3d27a255b031",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 2,
+        "title": "10*6",
+        "user_mark_answer_title": null,
+        "correctly_solved": false,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "60",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "46",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "14",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "5855fdaa-ae9d-4523-b281-09fd37992b79",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 2,
+        "title": "10*20",
+        "user_mark_answer_title": null,
+        "correctly_solved": false,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "200",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "46",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "14",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "dd1dd3ba-a926-4e98-ac2f-b9d2b85ca39d",
+            "title": "35",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 2,
+        "title": "3*2",
+        "user_mark_answer_title": null,
+        "correctly_solved": false,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "13",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "16",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "35",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "db679a77-2ced-4bdc-a4a2-50e7826b2475",
+            "title": "6",
+            "correct": true
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 3,
+        "title": "100*3",
+        "user_mark_answer_title": null,
+        "correctly_solved": false,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "300",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "26",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "1644",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "1718c499-73e0-4ae2-ba5b-91a4f145085d",
+            "title": "3555",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "type": "TEST",
+        "mark": 3,
+        "title": "90*5",
+        "user_mark_answer_title": null,
+        "correctly_solved": false,
+        "answers": [
+          {
+            "id": null,
+            "exam_question_id": "1adf8c1d-439b-4527-925a-0ab37e905684",
+            "title": "450",
+            "correct": true
+          },
+          {
+            "id": null,
+            "exam_question_id": "1adf8c1d-439b-4527-925a-0ab37e905684",
+            "title": "467",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "1adf8c1d-439b-4527-925a-0ab37e905684",
+            "title": "1644",
+            "correct": false
+          },
+          {
+            "id": null,
+            "exam_question_id": "1adf8c1d-439b-4527-925a-0ab37e905684",
+            "title": "3555",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "success": true
+}

@@ -1,0 +1,22 @@
+exam create begin
+    1.create qilayotgan user shu kurs ni yaratganmi tekshiradi
+    2.shunday kurs mavjudmi shunga tekshiradi
+    3.oldin shu coursega exam create qilganmi yoqmi shunga tekshiradi
+
+exam create end
+    1.shu shunday qilish role bormi shuni tekshiramiz  faqat course yaratgan odam qila oladi
+    2.savol soni kopligiga tekshiradi
+    3.nullga tekshirish
+
+exam informationForCreateExamUser method
+    1.bu user yaratuvchisi bolishi yoki admin yoki superAdmin
+    2.examId boyyicha exam bor yoqligiga tekshiradi
+
+exam createExamUser(examId) method
+    1.bunday exam bor yoqlgiga tekshiraladi va exam blocklangan bolsa ham ishla olmaydi va exam tugatilmagan bolsa ham ishla olmaydi
+    2.session course tugatganmi shunga tekshiriladi
+
+exam solve method
+    1. bunday examuser create bormi yoqmi shuni tekshiradi
+    2.order bor bolsa answerid bolishi shart
+    3.vaqt tugaganmi yoqmi shuni tekshiradi

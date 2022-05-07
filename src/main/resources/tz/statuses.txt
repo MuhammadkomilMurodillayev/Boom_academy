@@ -1,0 +1,21 @@
+0 - active
+
+#user-status (100-199)
+100 - blocked
+110 - not confirmed
+
+
+#course-status (200-299)
+-1 - none active
+0 - active
+
+#exam-status
+300 - exam hali toliq yaratilmagani anglatidi
+301 - manager message jonatilganini bildiradi
+302 - block
+
+#exam-user-status
+303 - exam tugallanganligini bildiradi
+
+#exam-question-satus
+400 - blocked
